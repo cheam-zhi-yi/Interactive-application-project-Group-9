@@ -17,11 +17,11 @@ int main() {
     std::cout << "=== WELCOME TO THE GAME ===" << std::endl;
 
     while (gameRunning) {
-        std::cout << "Type 'menu' to open menu,'quit' to quit game:";
+        std::cout << "Type 'M' to open menu,'quit' to quit game:";
         std::cin >> gameInput;
 
 
-        if (gameInput == "menu") {
+      if (gameInput == "M" || gameInput == "m") {
             menu.display();
         }
         else if (gameInput == "quit" || gameInput == "Quit") {
