@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "WUI.slnx",
+    "projects": [
+      "WUI\\WUI.vcxproj"
+    ]
+  }
+}
