@@ -16,5 +16,5 @@ std::string NPC::getName()
 
 Affection& NPC::getAffection()
 {
-    return affection;
+    return rating;
 }
