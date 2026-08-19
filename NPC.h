@@ -11,5 +11,6 @@ public:
     NPC(std::string startName, int startLooks, int startWill, int startCharisma);
 
     std::string getName();
+    Affection& getAffection(); //NPC has an affection level
 };
 
