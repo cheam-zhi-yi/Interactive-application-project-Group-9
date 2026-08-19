@@ -7,7 +7,7 @@ class NPC : public Character
 {
 private:
     std::string name;
-
+    Affection affection
 public:
     NPC(std::string startName, int startLooks, int startWill, int startCharisma);
 
