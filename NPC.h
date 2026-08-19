@@ -1,5 +1,6 @@
 #pragma once
 #include "Character.h"
+#incldue "Affection.h"
 #include <string>
 
 class NPC : public Character
