@@ -1,20 +1,32 @@
 #include "Affection.h"
 Affection::Affection()
 {
-    rating = 0;
+    rating = 5;
 }
 
-void Affection::IncreaseAffection(int amount)
+int Affection::getRating()
+{
+    return rating;
+}
+
+void Affection::increaseAffection(int amount)
 {
     rating += amount;
 }
 
-void Affection::DecreaseAffection(int amount)
+void Affection::decreaseAffection(int amount)
 {
     rating -= amount;
 }
 
-int Affection::GetAffection() const
+bool Affection::checkThreshold()
 {
-    return rating;
+    if (rating >= 10)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
