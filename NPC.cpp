@@ -9,4 +9,12 @@ std::string NPC::getName()
 {
     return  name;
     // what should we return?
+
+    
+}
+
+
+Affection& NPC::getAffection()
+{
+    return affection;
 }
