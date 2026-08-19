@@ -1,5 +1,5 @@
 #include "NPC.h"
-
+#include "Affection.h"
 NPC::NPC(std::string startName, int startLooks, int startWill, int startCharisma)
     : Character(startLooks, startWill, startCharisma)
 {
