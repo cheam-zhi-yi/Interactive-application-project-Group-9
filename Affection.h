@@ -1,15 +1,17 @@
 #pragma once
 class Affection
 {
-	private:
+private:
     int rating;
 
 public:
     Affection();
 
-    void IncreaseAffection(int amount);
-    void DecreaseAffection(int amount);
+    int getRating();
 
-    int GetAffection() const;
+    void increaseAffection(int amount);
+    void decreaseAffection(int amount);
+
+    bool checkThreshold();
 };
 
